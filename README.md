@@ -1,4 +1,9 @@
 # HttpArena Benchmarks with GenHttp, Minimal Api and Controllers
+## Considerations for the future. 
+This was implemented on .net 10. GenHttp is more performant on linux with ioxide. 
+
+Planning to upgrade the project to .net 11, and running this on a linux instance (current run is on a windows machine).
+
 ## Benchmarking with Bombardier
 
 ### Setup
