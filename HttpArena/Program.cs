@@ -11,7 +11,7 @@ if (args.Length > 0 && Enum.TryParse<HttpSource>(args[0], true, out var parsedSo
 }
 else
 {
-    // 2. Fallback prompt if no arguments are passed
+    // Fallback prompt if no arguments are passed
     Console.WriteLine("No argument provided. Please select a benchmark implementation to run:");
     Console.WriteLine("  [0] GenHttp");
     Console.WriteLine("  [1] MinimalApi");
