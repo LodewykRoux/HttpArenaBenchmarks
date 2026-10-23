@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HttpArena/HttpArena.csproj" />
+  <Project Path="HttpBenchmark/HttpBenchmark.csproj" />
+</Solution>
